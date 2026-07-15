@@ -42,7 +42,7 @@ export default function RealTimeChart({ ticker }: { ticker: string }) {
       priceScaleId: "", // Letakkan di sub-panel bawah
     });
     
-    chart.priceScale("").setOptions({
+    chart.priceScale("").applyOptions({
       scaleMargins: { top: 0.8, bottom: 0 },
     });
 

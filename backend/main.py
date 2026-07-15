@@ -33,7 +33,7 @@ app.add_middleware(
 )
 
 # Simulasi Koneksi Database (Ganti dengan URI database asli Anda)
-DB_PARAMS = "dbname=smart_money user=postgres password=secret host=timescaledb port=5432"
+DB_PARAMS = "dbname=smart_money user=postgres password=secret host=localhost port=5432"
 REDIS_URL = "redis://redis:6379/0"
 
 # Inisialisasi koneksi Redis Async dengan error handling
